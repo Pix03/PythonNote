@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d304ac0b-99ce-4e43-a48e-6e96d9f76511</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonNote.py</StartupFile>
+    <StartupFile>prot.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="prot.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonNote.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
